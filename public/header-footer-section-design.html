@@ -35,7 +35,61 @@
             color: gold;
         }
         section {
-          height:300px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        main {
+          height: 400px;
+          display: grid;
+          grid-template-columns: 4fr 4fr 4fr;
+        }
+        .men {
+          background-image: url(images/men.jpg);
+          background-size: cover;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          opacity: 1;
+        }
+        .women {
+          background-image: url(images/women.jpg);
+          background-size: cover;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          opacity: 1;
+        }
+        .kids {
+          background-image: url(images/kids.jpg);
+          background-size: cover;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          opacity: 1;
+        }
+        .women:hover {
+          opacity: 0.8;
+        }
+        .men:hover {
+          opacity: 0.8;
+        }
+        .kids:hover {
+          opacity: 0.8;
+        }
+        button {
+          width:50px;
+          height: 20px;
+          background-color: white;
+          border: none;
+        }
+        h3 {
+         font-family: arial;
+         font-weight: bold; 
+         background-color: white;
+         padding: 10px;
         }
         footer {
           background-color: black;
@@ -91,9 +145,27 @@
     <span>FESTIVAL SALE IS ON</span>
     <span class="bi bi-lightning-fill"></span>
   </article>
-</body>
   <section>
-
+    <main>
+      <div class="men">
+       <div>
+        <h3>MEN</h3>
+        <button>Shop> </button>
+       </div>
+      </div>
+      <div class="women">
+        <div>
+          <h3>WOMEN</h3>
+          <button>Shop> </button>
+         </div>
+      </div>
+      <div class="kids">
+        <div>
+          <h3>KIDS</h3>
+          <button>Shop> </button>
+         </div>
+      </div>
+    </main>
   </section>
   <footer>
     <div>
@@ -135,4 +207,5 @@
       </address>
     </div>
   </footer>
+</body> 
 </html>

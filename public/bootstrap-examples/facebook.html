@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid d-flex justify-content-around h-100 bg-light" style="padding-top: 120px;">
+    <div class="col-6">
+        <h1 class="text-primary">facebook</h1>
+        <h3>Facebook helps you connect and share with the people in your life.</h3>
+    </div>
+    <div class="bg-white p-3 rounded-4 shadow border-1 col-6" style="width: 35%;">
+        <input type="email" class="form-control form-control-lg fs-6" placeholder="Email address or phone number">
+        <input type="password" class="form-control form-control-lg mt-3 fs-6" placeholder="password">
+        <button class="btn btn-primary btn-lg mt-3 w-100">Log in</button>
+        <p class="m-3 text-center"><a class="text-decoration-none" href="#1">Forgotten password?</a></p>
+        <hr>
+        <div class="text-center">
+            <button class="btn btn-success fw-bold btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#signup">Create new account</button>
+        </div>
+    </div>
+    <div class="modal fade bg-white bg-opacity-50 shadow-sm" id="signup">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="fw-bold">Signup</br><span class="fs-6">It's easy to create</span></h3>
+                    <button class="btn-close btn-close-danger-subtle" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex mb-2">
+                        <input type="text" class="form-control me-2" placeholder="First name">
+                        <input type="text" class="form-control" placeholder="Surname">
+                    </div>
+                    <div>
+                        <input type="email" class="form-control mb-2" placeholder="Mobile number or email address">
+                        <input type="password" class="form-control mb-2" placeholder="password">
+                    </div>
+                    <p style="margin-bottom: -1px;">Date of birth ?</p>
+                    <div class="d-flex mb-2">
+                        <select class="form-select me-2">
+                            <option>Date</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select class="form-select  me-2">
+                            <option>Month</option>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                        </select>
+                        <select class="form-select  me-2">
+                            <option>Year</option>
+                            <option>2023</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                        </select>
+                    </div>
+                    <p style="margin-bottom: -1px;">Gender ?</p>
+                    <div class="d-flex justify-content-between mb-4" >
+                        <div><input type="radio" class="form-check-input"> <label class="form-check-label"> Male </label></div>
+                        <div><input type="radio" class="form-check-input"> <label class="form-check-label"> Female </label></div>
+                        <div><input type="radio" class="form-check-input"> <label class="form-check-label"> Custom </label></div>
+                    </div>
+                    <p class="fw-normal">People who use our service may have uploaded your contact information to Facebook. Learn more. <br><br>
+                       By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                    <div class="text-center">
+                        <button class="btn btn-success fw-bold mt-3 w-50 text-center">Signup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>   
+</body>
+</html>

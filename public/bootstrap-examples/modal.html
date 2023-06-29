@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <header class="bg-primary-subtle d-flex justify-content-center p-2">
+        <h2>Buyhub</h2>
+        <button class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#signin">signin</button>
+        <div class="modal fade bg-primary-subtle" id="signin">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1><span class="bi bi-person-fill"></span>Signin</h1>
+                        <button class="btn-close btn-close-danger-subtle" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h4>User Name</h4>
+                        <input type="text" class="form-control">
+                        <h4>Password</h4>
+                        <input type="text" class="form-control" placeholder="Atleast 8 chars">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success">signin</button>
+                        <button class="btn btn-danger">cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

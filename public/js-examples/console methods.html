@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function deleting(){
+            console.warn("delete button clicked");
+           flag=confirm("Record will be deleted\nare you sure?");
+           if(flag==true){
+            document.querySelector("p").innerText = "Record deleted";
+            console.error("ok button clicked");
+           } else{
+            document.querySelector("p").outerHTML = "<h1>cancelled</h1>";
+            console.log("cancel clicked");
+           }  
+        }
+    </script>
+</head>
+<body>
+    <button onclick="deleting()">DELETE</button>
+    <p></p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function bodyload(){
+            image.src="../../public/images/book.jpg";
+            form1.usertxt.value="sekhar";
+            form1.btnlogin.value="Login";
+            form2.btnok.value="OK"
+            form2.passwordtxt.value="1234"
+        }
+    </script>
+</head>
+<body onload="bodyload()">
+    <div>
+        <img name="image" width="200" height="100">
+    </div>
+    <div>
+        <form name="form1">
+            <h3>user name</h3>
+            <input type="text" name="usertxt"><input type="button" name="btnlogin">
+        </form>
+    </div>
+    <div>
+        <form name="form2">
+            <h3>password</h3>
+            <input type="button" name="btnok"><input type="text" name="passwordtxt">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon-sign-in-page</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+        form {
+            width: 350px;
+            border: 1px solid gainsboro;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body class="container-fluid">
+   <div>
+    <div>
+        <img src="images/amazon-in.jpg" width="150px">
+    </div>
+    <form>
+        <h2>Sign in</h2>
+        <div class="mb-4">
+            <label class="form-label">Enter mobile number or email</label>
+            <div>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="mb-4">
+            <button class="btn btn-warning w-100">Continue</button>
+        </div>
+        <div>
+            <p>By continuing, you agree to Amazon's <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">conditions of use </a> and <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy Notice</a> </p>
+        </div>
+        <details>
+            <summary class="mb-2"><font color="blue">Need details</font></summary>
+            <dl>
+                <dd><a href="https://www.amazon.in/ap/forgotpassword?showRememberMe=true&openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=inflex&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_custrec_signin&prevRID=RQ5HQ7YTTTN9GFNR0TT4&openid.assoc_handle=inflex&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Forgot password</a></dd>
+                <dd><a href="https://www.amazon.in/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8">Other issues with sign in</a></dd>
+            </dl>
+        </details>
+    </form>
+   </div>
+</body>
+</html>

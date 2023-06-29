@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function deleting(){
+           flag=confirm("Record will be deleted \n are you sure?");
+           if(flag==true){
+            document.write("<font color='blue'>Record will be deleted \n it is done</font><br><a href='alert.html'><font color='red'>GO BACK</font></a>");
+           }
+           else{
+            alert("cancelled");
+           }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="deleting()">DELETE</button>
+</body>
+</html>

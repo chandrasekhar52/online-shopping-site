@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function contentload(){
+           document.querySelector("img").src="../../public/images/book.jpg";
+           document.querySelector(".btn").value="login";
+           document.querySelector("#btnok").value="ok";
+        }
+    </script>
+</head>
+<body onload="contentload()">
+   <div>
+    <img width="200" height="100">
+   </div>
+   <div>
+    <header>
+        <input type="text" id="textuser"><input type="button" class="btn">
+    </header>
+   </div>
+   <div>
+    <form>
+        <input type="button" id="btnok"><input type="text" id="textpassword">
+    </form>
+   </div>
+</body>
+</html>

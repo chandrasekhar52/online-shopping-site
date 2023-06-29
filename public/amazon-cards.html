@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards-design</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        section {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+        }
+        .box{
+           background-color: whitesmoke;
+           height: 350px;
+           margin-left: 20px;
+           padding: 5px;
+           margin-top: -200px;
+        }
+        .row{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+
+        }
+        .row img {
+            width: 100%;
+        }
+        .row div {
+            margin-right: 5px;
+        }
+        .box4{
+            height: 400px;
+            margin-top: -200px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .card4 {
+            background-color: whitesmoke;
+            padding: 10px;
+        }
+        .im5 {
+            margin-top: 30px;
+        }
+        span {
+            background-color: yellow;
+            text-align: center;
+            margin-left: 40px;
+            padding: 2px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+   <heder>
+    <img width="100%" src="images/amazon-banner.jpg">
+   </heder> 
+   <section>
+    <div class="box">
+        <h2><font face="arial"><b>Appliances for your home | Up to 50% off</b></font></h2>
+        <div class="row">
+            <div>
+                <img src="images/AC.jpg">
+                <font face="arial"><b>Air Conditoners</b></font> 
+            </div>
+            <div>
+                <img src="images/refrigirator.jpg">
+                <font face="arial"><b>refrigirators</b></font>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img src="images/washing-machines.jpg">
+                <font face="arial"><b>Washing Machines</b></font>
+            </div>
+            <div>
+                <img src="images/microwaves.jpg">
+                <font face="arial"><b>Microwaves</b></font>
+            </div>
+        </div><br>
+        <div>see more</div>
+    </div>
+    <div class="box">
+       <div class="card2">
+            <h2><font><b>Up to 70% off | Clearance store</b></font></h2>
+            <div>
+                <img src="images/sale-banner.jpg" width="100%">
+            </div>
+       </div><br>
+       <div>see more</div>
+    </div>
+    <div class="box">
+        <h2><font face="arial"><b>Appliances for your home | Up to 50% off</b></font></h2>
+        <div class="row">
+            <div>
+                <img src="images/im-1.jpg">
+                <font face="arial"><b>Air Conditoners</b></font> 
+            </div>
+            <div>
+                <img src="images/im-2.jpg">
+                <font face="arial"><b>refrigirators</b></font>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img src="images/im-3.jpg">
+                <font face="arial"><b>Washing Machines</b></font>
+            </div>
+            <div>
+                <img src="images/im-4.jpg">
+                <font face="arial"><b>Microwaves</b></font>
+            </div>
+        </div><br>
+        <div>see more</div>
+    </div>
+    <div>
+        <div class="box4">
+            <div class="card4">
+                <h2><font face="arial"><b>Sign in for your best experience</b></font></h2>
+                <span><font face="arial"><b>Sign in securely</b></font></span>
+            </div>
+            <div class="im5"><img src="images/im-5.jpg" width="100%"></div>
+         </div>
+    </div>
+   </section>
+</body>
+</html>

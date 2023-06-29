@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script type="text/javascript">
+        function Click(){
+          result =  prompt("Enter folder name");
+          if(result==null){
+            alert("you cancelled")
+          } else if(result==""){
+            alert("please enter a name for folder")
+          } else{
+             document.querySelector("p").innerHTML += "folder created:" + folderName + "<br>";
+          }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="Click()"><span class="bi bi-folder"></span></button>
+    <p></p>
+</body>
+</html>

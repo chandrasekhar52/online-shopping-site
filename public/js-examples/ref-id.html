@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function contentload(){
+            document.getElementById("pic").src="../../public/images/book.jpg";
+            document.getElementById("textuser").value="username";
+            document.getElementById("btnlogin").value="login";
+            document.getElementById("textpassword").value="12345";
+            document.getElementById("btnok").value="ok";
+
+        }
+    </script>
+</head>
+<body onload="contentload()">
+   <div>
+    <img width="200" height="100" id="pic">
+   </div>
+   <div>
+    <form>
+        <input type="text" id="textuser"><input type="button" id="btnlogin">
+    </form>
+   </div><br>
+   <div>
+    <form>
+        <input type="button" id="btnok"><input type="text" id="textpassword">
+    </form>
+   </div>
+</body>
+</html>

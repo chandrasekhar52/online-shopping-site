@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+      function bodyload(){
+        window.document.images[0].src="../../public/images/AC.jpg";
+        window.document.forms[0].elements[0].value = "register";
+        window.document.forms[1].elements[0].value = "signin";
+        window.document.forms[1].elements[2].value = "cancel";
+        window.document.forms[2].elements[0].value = "login";
+    }
+    </script>
+</head>
+<body onload="bodyload()">
+    <div>
+        <img width="200" height="200" border="1">
+    </div>
+    <div>
+        <form>
+            <h2>register</h2>
+            <input type="button"><input type="text">
+        </form>
+        <div>
+         <form>
+                <h2>signin</h2>
+                <input type="button"> <input type="text"><input type="button">
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>login</h2>
+                <input type="button" tyoe="password"><input >
+            </form>
+        </div>
+    </div>
+</body>
+</html>
